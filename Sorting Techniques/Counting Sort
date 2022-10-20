@@ -1,0 +1,49 @@
+#include<bits/stdc++.h>
+using namespace std;
+//Function for Counting Sort
+void counting_sort(vector<int> a,int k,int n)
+{
+    vector<int> c(k);
+    vector<int> b(n);
+    for(int i = 0; i <= k; i++)
+    {
+        c[i] = 0;
+    }
+    for(int j = 0; j < n; j++)
+    {
+        c[a[j]]++;
+    }
+    for(int i = 1; i <= k; i++)
+    {
+        c[i] = c[i] + c[i-1];
+    }
+    for(int j = n-1; j >= 0; j--)
+    {
+        b[c[a[j]]] = a[j];
+        c[a[j]] = c[a[j]] - 1;
+    }
+    // Print the Output of sorted string 
+    cout<<"Sorted elements are: ";
+    for(int i = 1; i <=n; i++)
+    {
+        cout<<b[i]<<" ";
+    }
+}
+int main()
+{
+    int n;
+    cout<<"Enter the size: ";
+    cin>>n;
+    vector <int> v;
+    int max = 0;
+    cout<<"Enter the elements: ";
+    for(int i = 0; i < n; i++)
+    {
+        int x;
+        cin>>x;
+        v.push_back(x); 
+        if(x > max) max = x;
+    }
+    counting_sort(v, max, n);
+return 0;
+}
