@@ -1,4 +1,4 @@
-# Cpp-Programming
+# Programming
 
 ## 1. Sorting Techniques
      - Heap Sort
