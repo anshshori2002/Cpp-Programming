@@ -1,3 +1,6 @@
+## COUNTING SORT
+ - Counting Sort is very time efficient and stable algorithm for sorting. Unlike bubble sort and merge sort, counting sort is not a comparison based algorithm. It        avoids comparisons and exploits the O(1) time insertions and lookup in an array.
+
 ### Algorithm for Counting Sort :-
     1. Algo: Counting Sort(A,B,K):
     2. for i <- 1 to k 
