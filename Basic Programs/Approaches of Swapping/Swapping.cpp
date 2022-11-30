@@ -1,4 +1,4 @@
-//Code for Approach 1:
+//Code for Approach 1: This Approach is done by using the Temporary Variable.
 #include<iostream>
 using namespace std;
 int main()
