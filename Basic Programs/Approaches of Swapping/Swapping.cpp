@@ -47,4 +47,25 @@ int main()
 
 
 
-
+//Code for Approach 3: This Approach is also done without using the temporary Variable.
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    cout<<"Enter two Number :"<<endl;
+    cout<<"a = ";
+    cin>>a;
+    cout<<"b = ";
+    cin>>b;
+    
+    //Approach-3
+    a = a ^ b;
+    b = a ^ b;
+    a = a ^ b;
+    
+    cout<<"The Numbers after swaping :"<<endl;
+    cout<<"a = "<<a<<endl;
+    cout<<"b = "<<b;
+    
+}
