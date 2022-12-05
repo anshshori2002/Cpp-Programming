@@ -1,4 +1,4 @@
-//Program to Check weather given Production rule is Operator Precedence or not.
+//Program to Check weather given Production rule is Operator Grammar or not.
 #include<bits/stdc++.h>
 using namespace std;
 int main()
