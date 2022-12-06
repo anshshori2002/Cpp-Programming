@@ -6,3 +6,5 @@
       3. for i = length(arr)/2 to 1  
       4. MaxHeapify(arr,i)  
       5. End  
+## Complexity of Heap Sort
+   For All the Cases(Best Case, Worst Case, Average Case) - O(nlogn)
