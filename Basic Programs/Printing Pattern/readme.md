@@ -24,7 +24,7 @@
        &emsp;&emsp;&emsp;&emsp;&emsp;****<br>
        &emsp;&emsp;&emsp;&emsp;&emsp;*****<br></p>
        
-5. <p><a href="https://github.com/anshshori2002/Programming/blob/main/Basic%20Programs/Printing%20Pattern/Pattern4.c">Pattern5:</a>&emsp;   *<br>
+5. <p><a href="https://github.com/anshshori2002/Programming/blob/main/Basic%20Programs/Printing%20Pattern/Pattern4.c">Pattern5:</a>&emsp;&emsp;  *<br>
        &emsp;&emsp;&emsp;&emsp;&emsp;  ***<br>
        &emsp;&emsp;&emsp;&emsp;&emsp; *****<br>
        &emsp;&emsp;&emsp;&emsp;&emsp;*******<br></p>
