@@ -9,6 +9,7 @@ struct node{
 }*head = NULL;
 // struct node *head = NULL;
 
+//Function for Insertion in Begining.
 void insert_at_begin(int key)
 {
     struct node *temp;
