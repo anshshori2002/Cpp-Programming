@@ -1,15 +1,12 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include <stddef.h>
-
-//Self Referential Structure
 struct node{
     int data;
     struct node *next;
 }*head = NULL;
 // struct node *head = NULL;
 
-//Function for Insertion in Begining.
 void insert_at_begin(int key)
 {
     struct node *temp;
@@ -42,7 +39,21 @@ void insert_at_end(int key)
         ptr->next = temp;
     }
 }
-void insert_at_address
+void insert_at_index(int key,int index)
+{
+    struct node *temp,*ptr;
+    temp = malloc(sizeof(struct node));
+    temp->data = key;
+    temp->next = NULL;
+    ptr = head;
+    index = index-1;
+    if(index--)
+    {
+        ptr = ptr->next;
+    }
+    temp->next = ptr->next;
+    ptr->next = temp;
+}
 void traversal()
 {
     struct node *ptr;
@@ -52,6 +63,7 @@ void traversal()
         printf("-> %d ",ptr->data);
         ptr=ptr->next;
     }
+    printf("\n");
 }
 
 void main()
@@ -60,5 +72,7 @@ void main()
    insert_at_begin(9);
    insert_at_end(8);
    insert_at_end(7);
+   traversal();
+   insert_at_index(16,1);
    traversal();
 }
