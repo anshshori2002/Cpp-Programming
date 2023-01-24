@@ -5,7 +5,6 @@ struct node{
     int data;
     struct node *next;
 }*head = NULL;
-// struct node *head = NULL;
 
 void insert_at_begin(int key)
 {
@@ -47,7 +46,7 @@ void insert_at_index(int key,int index)
     temp->next = NULL;
     ptr = head;
     index = index-1;
-    if(index--)
+    while(index--)
     {
         ptr = ptr->next;
     }
@@ -66,6 +65,20 @@ void traversal()
     printf("\n");
 }
 
+void delete_from_begin()
+{
+    struct node *ptr;
+    ptr = head;
+    head = ptr->next;
+    free(ptr);
+}
+
+void delete_from_end()
+{
+    struct node *ptr;
+    ptr = head;
+    
+}
 void main()
 {
    insert_at_begin(5);
@@ -74,5 +87,7 @@ void main()
    insert_at_end(7);
    traversal();
    insert_at_index(16,1);
+   traversal();
+   delete_from_begin();
    traversal();
 }
