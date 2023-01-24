@@ -77,7 +77,12 @@ void delete_from_end()
 {
     struct node *ptr;
     ptr = head;
-    
+    while(ptr->next->next!=NULL)
+    {
+        ptr = ptr->next;
+    }
+    free(ptr->next);
+    ptr->next = NULL;
 }
 void main()
 {
@@ -89,5 +94,7 @@ void main()
    insert_at_index(16,1);
    traversal();
    delete_from_begin();
+   traversal();
+   delete_from_end();
    traversal();
 }
