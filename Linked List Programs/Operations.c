@@ -6,6 +6,7 @@ struct node{
     struct node *next;
 }*head = NULL;
 
+// Insertion in Linked LIst From Begining
 void insert_at_begin(int key)
 {
     struct node *temp;
@@ -18,6 +19,8 @@ void insert_at_begin(int key)
         head = temp;
     }
 }
+
+//Insertion In Linked List From The End
 void insert_at_end(int key)
 {
     struct node *temp,*ptr;
@@ -38,6 +41,8 @@ void insert_at_end(int key)
         ptr->next = temp;
     }
 }
+
+//Insertion in Linked list at Index
 void insert_at_index(int key,int index)
 {
     struct node *temp,*ptr;
@@ -53,6 +58,8 @@ void insert_at_index(int key,int index)
     temp->next = ptr->next;
     ptr->next = temp;
 }
+
+//Function For Traversal of Linked List
 void traversal()
 {
     struct node *ptr;
@@ -65,6 +72,7 @@ void traversal()
     printf("\n");
 }
 
+//Function for Deletion in Linked List from Begining 
 void delete_from_begin()
 {
     struct node *ptr;
@@ -73,6 +81,7 @@ void delete_from_begin()
     free(ptr);
 }
 
+//Deletion in Linked List from the End
 void delete_from_end()
 {
     struct node *ptr;
