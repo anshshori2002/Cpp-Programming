@@ -1,6 +1,6 @@
-## Programs of Linked List
+# Programs of Linked List
 
-1. Operation in Linked List
+## 1. Operation in Linked List
     -This file contains:
       -Insertion in Linked List
         1. Insertion in Begining
