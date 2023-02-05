@@ -40,10 +40,10 @@ public:
 
 
 
-Explaination of the code:-
-  1. Firstly create a new linked list (as address of first node come in node pointer and we copy the address to the temp pointer)
-  2. After that we create a while statement and run that loop upto-
-    (i)  First linked list is not NULL;
-    (ii) Second linked list is not NULL;
-    (iii) if linked list first and second become empty then to add carry at end we also have check for carry.
-  3. At last we return the adresss of first Node. 
+// Explaination of the code:-
+//   1. Firstly create a new linked list (as address of first node come in node pointer and we copy the address to the temp pointer)
+//   2. After that we create a while statement and run that loop upto-
+//     (i)  First linked list is not NULL;
+//     (ii) Second linked list is not NULL;
+//     (iii) if linked list first and second become empty then to add carry at end we also have check for carry.
+//   3. At last we return the adresss of first Node. 
