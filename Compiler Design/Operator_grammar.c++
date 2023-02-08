@@ -32,3 +32,7 @@ int main()
     cout<<"This Productions are Operator Precedance.";
     return 0;
 }
+
+
+// OUTPUT:-
+
