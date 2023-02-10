@@ -20,6 +20,11 @@ void insertion_in_begin(int key)
         head = temp;
     }
 }
+
+void insertion_at_end(int key)
+{
+    
+}
 void traversal()
 {
     struct node *ptr;
