@@ -8,7 +8,7 @@ struct node{
     struct node *next;
 }*head = NULL;
 
-// Insertion in Linked LIst From Begining
+// Insertion in Linked List From Begining
 void insert_at_begin(int key)
 {
     struct node *temp;
@@ -37,7 +37,7 @@ void insert_at_end(int key)
             head = temp;
         }
         while(ptr->next)
-        {
+        {   
             ptr = ptr->next;
         }
         ptr->next = temp;
@@ -95,6 +95,37 @@ void delete_from_end()
     free(ptr->next);
     ptr->next = NULL;
 }
+
+//Function to count the number of Nodes in a Linked List
+int count_nodes()
+{
+    int count = 0;
+    struct node *ptr;
+    ptr = head;
+    while(ptr)
+    {
+        count++;
+        ptr = ptr->next;
+    }
+    return count;
+}
+
+//Function to find the Middle of linked List
+int middle_data()
+{
+    struct node *fast,*slow;
+    fast = slow = head;
+    if(head==NULL)
+    {
+        return -1;
+    }
+    while(fast&&fast->next)
+    {
+        slow = slow->next;
+        fast = fast->next->next;
+    }
+    return slow->data;
+}
 void main()
 {
    insert_at_begin(5);
@@ -103,11 +134,17 @@ void main()
    insert_at_end(7);
    traversal();
    insert_at_index(16,1);
+   insert_at_index(67,3);
    traversal();
    delete_from_begin();
    traversal();
    delete_from_end();
    traversal();
+   int c = count_nodes();
+   printf("No. of Nodes in the Linked List : %d",c);
+   printf("\n");
+   int m = middle_data();
+   printf("The Middle of the linked list is: %d",m);
 }
 
 
@@ -116,6 +153,8 @@ ________________________________________________________________________________
     
 // OUTPUT:
 // -> 9 -> 5 -> 8 -> 7 
-// -> 9 -> 16 -> 5 -> 8 -> 7
-// -> 16 -> 5 -> 8 -> 7
-// -> 16 -> 5 -> 8
+// -> 9 -> 16 -> 5 -> 67 -> 8 -> 7
+// -> 16 -> 5 -> 67 -> 8 -> 7
+// -> 16 -> 5 -> 67 -> 8
+// No. of Nodes in the Linked List : 4
+// The Middle of the linked list is: 67
