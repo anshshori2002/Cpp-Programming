@@ -10,4 +10,4 @@
  <p>&emsp;- <a href="https://github.com/anshshori2002/Programming/blob/main/Compiler%20Design/Operator_grammar.c%2B%2B">Operator Grammar</a></p>
 
 ## 3. Linked List programs
-   Operations in Linked List
+  (i) Operations in Linked List
