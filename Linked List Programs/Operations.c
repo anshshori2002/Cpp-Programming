@@ -3,10 +3,12 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include <stddef.h>
+
 struct node{
     int data;
     struct node *next;
 }*head = NULL;
+
 
 // Insertion in Linked List From Begining
 void insert_at_begin(int key)
@@ -21,6 +23,7 @@ void insert_at_begin(int key)
         head = temp;
     }
 }
+
 
 //Insertion In Linked List From The End
 void insert_at_end(int key)
@@ -44,8 +47,9 @@ void insert_at_end(int key)
     }
 }
 
-//Insertion in Linked list at Index
-void insert_at_index(int key,int index)
+
+//Insertion in Linked list after Index
+void insert_after_index(int key,int index)
 {
     struct node *temp,*ptr;
     temp = malloc(sizeof(struct node));
@@ -61,6 +65,7 @@ void insert_at_index(int key,int index)
     ptr->next = temp;
 }
 
+
 //Function For Traversal of Linked List
 void traversal()
 {
@@ -74,6 +79,7 @@ void traversal()
     printf("\n");
 }
 
+
 //Function for Deletion in Linked List from Begining 
 void delete_from_begin()
 {
@@ -82,6 +88,7 @@ void delete_from_begin()
     head = ptr->next;
     free(ptr);
 }
+
 
 //Deletion in Linked List from the End
 void delete_from_end()
@@ -96,6 +103,21 @@ void delete_from_end()
     ptr->next = NULL;
 }
 
+//Delete at Index
+void delete_at_index(int index)
+{
+    struct node *ptr;
+    ptr = head;
+    while(index--)
+    {
+        ptr = ptr->next;
+    }
+    ptr->next = NULL;
+    while(ptr!=NULL)
+    {
+        free(ptr);
+    }
+}
 //Function to count the number of Nodes in a Linked List
 int count_nodes()
 {
@@ -109,6 +131,7 @@ int count_nodes()
     }
     return count;
 }
+
 
 //Function to find the Middle of linked List
 int middle_data()
@@ -126,18 +149,25 @@ int middle_data()
     }
     return slow->data;
 }
+
+
 void main()
 {
+    // Function Calling For Insertion At Begin
    insert_at_begin(5);
    insert_at_begin(9);
+   // Function Calling for Insertion At End
    insert_at_end(8);
    insert_at_end(7);
    traversal();
-   insert_at_index(16,1);
-   insert_at_index(67,3);
+   // Function Calling for Insertion After Index
+   insert_after_index(16,1);
+   insert_after_index(67,3);
    traversal();
+   // Function Calling for Deletion at Begin
    delete_from_begin();
    traversal();
+   // Function Calling for Deletion at End 
    delete_from_end();
    traversal();
    int c = count_nodes();
@@ -145,6 +175,9 @@ void main()
    printf("\n");
    int m = middle_data();
    printf("The Middle of the linked list is: %d",m);
+   //Function Calling for Deletion at Index
+   delete_at_index(1);
+   traversal();
 }
 
 
