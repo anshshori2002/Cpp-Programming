@@ -24,6 +24,7 @@ void insertion_in_begin(int key)
 void insertion_at_end(int key)
 {
     struct node* ptr;
+    ptr = head;
     
 }
 void traversal()
