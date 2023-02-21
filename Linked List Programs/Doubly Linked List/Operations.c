@@ -25,7 +25,10 @@ void insertion_at_end(int key)
 {
     struct node* ptr;
     ptr = head;
-    
+    while(ptr)
+    {
+        
+    }
 }
 void traversal()
 {
