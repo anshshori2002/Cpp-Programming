@@ -8,6 +8,7 @@ struct node
     struct node* next;
 }*head = NULL;
 
+//Function for Insertion in Begining
 void insertion_in_begin(int key)
 {
     struct node *temp;
