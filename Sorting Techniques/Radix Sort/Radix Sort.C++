@@ -3,6 +3,6 @@ using namespace std;
 int main()
 {
   //Firstly Take the input
-
+  vector<int> v;
 
 }
