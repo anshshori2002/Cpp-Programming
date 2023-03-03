@@ -11,3 +11,4 @@
 
 ## 3. Linked List programs
   (i) Operations in Linked List
+  (ii) Reversing a Linked List
