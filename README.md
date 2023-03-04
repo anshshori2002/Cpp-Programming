@@ -10,5 +10,5 @@
  <p>&emsp;- <a href="https://github.com/anshshori2002/Programming/blob/main/Compiler%20Design/Operator_grammar.c%2B%2B">Operator Grammar</a></p>
 
 ## 3. Linked List programs
-<p>&emsp;- <a href="https://github.com/anshshori2002/Programming/tree/main/Sorting%20Techniques/Radix%20Sort">Operations in Linked List</a></p>
-<p>&emsp;- <a href="https://github.com/anshshori2002/Programming/tree/main/Sorting%20Techniques/Radix%20Sort">Reversing a Linked List</a></p>
+<p>&emsp;- <a href="https://github.com/anshshori2002/Programming/tree/main/Linked%20List%20Programs">Operations in Linked List</a></p>
+<p>&emsp;- <a href="https://github.com/anshshori2002/Programming/tree/main/Linked%20List%20Programs">Reversing a Linked List</a></p>
