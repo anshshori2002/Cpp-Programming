@@ -1,4 +1,4 @@
-# Programs of Linked List
+# Programs of Singly Linked List
 
 ## 1. Operation in Linked List
     -This file contains:
