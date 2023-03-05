@@ -1,5 +1,5 @@
 // Platform Leetcode
-// Problem Link - https://leetcode.com/problems/linked-list-cycle/description/
+// Problem Link - https://leetcode.com/problems/middle-of-the-linked-list/submissions/
 
 /**
  * Definition for singly-linked list.
