@@ -13,5 +13,7 @@
    ### &emsp; Singly Linked List
 <p>&emsp;- <a href="https://github.com/anshshori2002/Programming/tree/main/Linked%20List%20Programs">Operations in Linked List</a></p>
 <p>&emsp;- <a href="https://github.com/anshshori2002/Programming/tree/main/Linked%20List%20Programs">Reversing a Linked List</a></p>
-<p>&emsp;- <a href="https://github.com/anshshori2002/Programming/blob/main/Linked%20List%20Programs/Singly%20Linked%20List/Middle_of_ll.c%2B%2B">Finding Middle in a Linked List</a></p>
+<p>&emsp;- <a href="https://github.com/anshshori2002/Programming/blob/main/Linked%20List%20Programs/Singly%20Linked%20List/Middle_of_ll.c%2B%2B">Finding Middle in a Linked List</a></p> 
+
 ### &emsp; Doubly Linked List
+<p>&emsp;- <a href="https://github.com/anshshori2002/Programming/tree/main/Linked%20List%20Programs">Operations in Doubly Linked List</a></p>
