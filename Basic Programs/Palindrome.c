@@ -19,9 +19,9 @@ int main()
     return 0;
 }
 
-Output:
-Enter the no. :154
-154 is not a Palindrome
+// Output:
+// Enter the no. :154
+// 154 is not a Palindrome
 
-Enter the no. :121
-121 is a Palindrome
+// Enter the no. :121
+// 121 is a Palindrome
