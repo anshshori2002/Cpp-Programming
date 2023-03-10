@@ -1,9 +1,8 @@
-https://practice.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1
 
 
-This is code of Geeks for Geeks Preblem.
+// Problem Link -  https://practice.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1
 
-Code:-
+// Code:-
 
 struct Node* reverse(struct Node *ptr)
 {
