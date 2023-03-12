@@ -4,3 +4,4 @@ Programs:-
 2. Patterm Printing.
 3. Palindrome
 4. Strong Number
+5. Calculator
