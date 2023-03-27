@@ -17,3 +17,5 @@
             (ii) Another thing is, We want to reverse the whole linked list.
 
 # Programs of Doubly Linked List
+
+##1. Operations
