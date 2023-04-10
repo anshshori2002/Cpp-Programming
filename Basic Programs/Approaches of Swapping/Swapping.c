@@ -40,3 +40,25 @@ int main()
     printf("a = %d",a);
     printf("b = %d",b);
 }
+       
+//Code for Approach 3: This Approach is also done without using the temporary Variable.
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("Enter two Number :");
+    printf("a = ");
+    scanf("%d",&a);
+    printf("b = ");
+    scanf("%d",&b);
+    
+    //Approach-3
+    a = a ^ b;
+    b = a ^ b;
+    a = a ^ b;
+    
+    printf("The Numbers after swaping :\n)";
+    printf("a = %d",a);
+    printf("b = %d",b);
+    
+}
