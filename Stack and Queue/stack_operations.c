@@ -27,7 +27,7 @@ void print()
 }
 void main()
 {
+  push(10);
   pop();
-  
   return 0;
 }
