@@ -1,4 +1,4 @@
-//Stack Operations using Array
+//Stack Operations as Array
 #include<stdio.h>
 #include<limits.h>
 #include<stdlib.h>
@@ -79,6 +79,6 @@ int main()
 }
 
 // Limitation of Implementing the Stack using Array:- 
-//     1. In inplementing the stack using array we can only maintain only one stack.
+//     1. In inplementing the stack as array we can only maintain only one stack.
 //     2. we cannot maintain multiple stacks in a single programs.
-//     3. That's we use to implement the Stuck using Structure, that helps us to maintain multiple stack.
+//     3. That's we use to implement the Stack as Structure, that helps us to maintain multiple stack.
