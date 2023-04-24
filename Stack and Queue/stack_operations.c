@@ -77,3 +77,8 @@ int main()
     }
     
 }
+
+// Limitation of Implementing the Stack using Array:- 
+//     1. In inplementing the stack using array we can only maintain only one stack.
+//     2. we cannot maintain multiple stacks in a single programs.
+//     3. That's we use to implement the Stuck using Structure, that helps us to maintain multiple stack.
