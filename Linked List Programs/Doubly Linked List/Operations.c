@@ -21,7 +21,7 @@ void insertion_in_begin(int key)
         head = temp;
     }
 }
-
+//Function to insert at end
 void insertion_at_end(int key)
 {
     struct node* ptr;
