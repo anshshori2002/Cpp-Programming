@@ -29,4 +29,4 @@
        &emsp;&emsp;&emsp;&emsp;&emsp; *****<br>
        &emsp;&emsp;&emsp;&emsp;&emsp;*******<br></p>
 
-6. Pattern6:
+6. Pattern6: 
