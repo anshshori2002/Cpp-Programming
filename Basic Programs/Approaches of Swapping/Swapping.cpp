@@ -67,5 +67,4 @@ int main()
     cout<<"The Numbers after swaping :"<<endl;
     cout<<"a = "<<a<<endl;
     cout<<"b = "<<b;
-    
 }
