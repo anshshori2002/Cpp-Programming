@@ -1,6 +1,6 @@
 
 //  Problem of Leetcode of adding Two linked list.
-//  Link of this problem - https://leetcode.com/problems/add-two-numbers/submissions/892052957/
+//  Link of this problem - https://leetcode.com/problems/add-two-numbers/
 
 //  Description of the problem - 
 //  You are given two non-empty linked lists representing two non-negative integers. 
@@ -38,7 +38,13 @@ public:
     }
 };
 
-
+// Input:-
+// l1 =
+// [2,4,3]
+// l2 =
+// [5,6,4]
+// Output:-
+// [7,0,8]
 
 // Explaination of the code:-
 //   1. Firstly create a new linked list (as address of first node come in node pointer and we copy the address to the temp pointer)
