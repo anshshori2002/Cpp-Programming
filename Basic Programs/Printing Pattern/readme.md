@@ -29,7 +29,7 @@
        &emsp;&emsp;&emsp;&emsp;&emsp; *****<br>
        &emsp;&emsp;&emsp;&emsp;&emsp;*******<br></p>
 
-6. <p><a href="https://github.com/anshshori2002/Programming/blob/main/Basic%20Programs/Printing%20Pattern/Pattern2.c">Pattern6:</a>&emsp;1<br>
+6. <p><a href="https://github.com/anshshori2002/Programming/tree/main/Basic%20Programs/Printing%20Pattern/Pattern6">Pattern6:</a>&emsp;1<br>
        &emsp;&emsp;&emsp;&emsp;&emsp;21<br>
        &emsp;&emsp;&emsp;&emsp;&emsp;321<br>
        &emsp;&emsp;&emsp;&emsp;&emsp;4321<br>
