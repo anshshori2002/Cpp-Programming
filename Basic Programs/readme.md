@@ -5,4 +5,3 @@ Programs:-
 3. Palindrome
 4. Strong Number
 5. Calculator
-
