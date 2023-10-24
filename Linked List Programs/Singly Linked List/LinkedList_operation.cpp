@@ -151,7 +151,7 @@ class Node
         
     }
 
-    void middle_element(Node *head)
+    void middle_element(Node *head)                               //Time Complexity: O(n)
     {
         Node* slow = head;
         Node* fast = head;
