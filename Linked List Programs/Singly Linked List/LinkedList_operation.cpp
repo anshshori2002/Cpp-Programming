@@ -13,6 +13,7 @@ class Node
         next = NULL;
     }
 };
+    
     void display(Node* head)                                    //Time Complexity: O(n)
     {
         Node* temp = head;
@@ -151,16 +152,26 @@ class Node
         
     }
 
-    void middle_element(Node *head)                               //Time Complexity: O(n)
+    void middle_element(Node *head)                             //Time Complexity: O(n)
     {
-        Node* slow = head;
-        Node* fast = head;
+        Node  *slow = head,*fast = head;
         while(fast!=NULL && fast->next!=NULL)
         {
             slow = slow->next;
             fast = fast->next->next;
         }
-        cout<<"Middle ELement: "<<slow->val;
+        cout<<"Middle ELement: "<<slow->val<<endl;
+    }
+
+    void reverse_print(Node *head)
+    {
+        //base condition
+        if(head == NULL)
+            return;
+        //recursive condition
+        Node* temp = head;
+        reverse_print(temp->next);
+        cout<<temp->val<<"->";
     }
 int main()
 {
@@ -189,23 +200,7 @@ int main()
     delete_at_pos(head,2);
     display(head);
     middle_element(head);
+    reverse_print(head);
+    cout<<"NULL";
 return 0;
 }
-
--------------------------------------------------------------------
-  
-// Output: 
-  // 1->NULL
-  // 2->1->NULL
-  // 2->1->3->NULL
-  // 2->1->3->9->NULL
-  // 2->1->3->9->56->NULL
-  // 2->5->1->3->9->56->NULL
-  // 2->5->8->3->9->56->NULL
-  // Total Element in Linked List: 6
-  // ALternate Elements in a Node: 2->8->9->NULL
-  // The Second Last Node is: 9
-  // 5->8->3->9->56->NULL
-  // 5->8->3->9->NULL
-  // 5->8->9->NULL
-  // Middle ELement: 8
