@@ -204,3 +204,22 @@ int main()
     cout<<"NULL";
 return 0;
 }
+
+----------------------------------------------------------
+
+// OUTPUT: 
+    // 1->NULL
+    // 2->1->NULL
+    // 2->1->3->NULL
+    // 2->1->3->9->NULL
+    // 2->1->3->9->56->NULL
+    // 2->5->1->3->9->56->NULL
+    // 2->5->8->3->9->56->NULL
+    // Total Element in Linked List: 6
+    // ALternate Elements in a Node: 2->8->9->NULL
+    // The Second Last Node is: 9
+    // 5->8->3->9->56->NULL
+    // 5->8->3->9->NULL
+    // 5->8->9->NULL
+    // Middle ELement: 8
+    // 9->8->5->NULL
