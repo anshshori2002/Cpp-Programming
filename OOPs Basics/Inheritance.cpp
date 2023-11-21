@@ -5,17 +5,17 @@ class Parent
 {
     public:
         int x;
-    private:
-        int y;
     protected:
+        int y;
+    private:
         int z;
 };
 //The below code describe the different types of inheritance modes.
-class Chile1 : public Parent
+class Child1 : public Parent
 {
     //x will remain public
     //y will remain protected
-    //x is not accessible
+    //z is not accessible
 };
 class Child2 : private Parent
 {
