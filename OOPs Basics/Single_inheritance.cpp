@@ -17,14 +17,11 @@ class Child: public Parent
         cout<<"Child Class"<<endl;
     } 
 };
-
-
 int main()
 {
     //Goes from Parent to Child
     Child c;
     //Only go to Parent
     Parent p;
-
 return 0;
 }
